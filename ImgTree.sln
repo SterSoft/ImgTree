@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImgTree", "ImgTree\ImgTree.csproj", "{D9E47487-989F-4494-BA82-B8BD09F59BA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{9F7D3B11-6B96-439E-98C1-0D08B7FEBB73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mono.Fuse", "Mono.Fuse", "{C0DF3FCE-EFCC-44BA-97DE-BEF22623D2B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{E68F774F-D2AB-4A95-9D61-A228FF63280B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E47487-989F-4494-BA82-B8BD09F59BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E47487-989F-4494-BA82-B8BD09F59BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E47487-989F-4494-BA82-B8BD09F59BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E47487-989F-4494-BA82-B8BD09F59BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0DF3FCE-EFCC-44BA-97DE-BEF22623D2B3} = {9F7D3B11-6B96-439E-98C1-0D08B7FEBB73}
+		{E68F774F-D2AB-4A95-9D61-A228FF63280B} = {C0DF3FCE-EFCC-44BA-97DE-BEF22623D2B3}
+	EndGlobalSection
+EndGlobal
